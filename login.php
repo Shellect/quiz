@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="d-grid mt-3">
-                <input type="hidden" name="page" value="0">
+                <input type="hidden" name="page" value="1">
                 <button class="btn btn-success">Login</button>
             </div>
         </form>
