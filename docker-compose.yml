@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  php-fpm:
+    image: php:fpm-alpine3.20
+  webserver:
+    image: nginx:stable-perl

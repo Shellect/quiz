@@ -12,7 +12,7 @@
                     $answer_value = $j + 1;
                     ?>
                     <div class="col-3">
-                        <input type="radio" name="<?= $answer_name ?>" value="<?= $answer_value ?>" id="<?= $answer_id ?>" class="form-check-input">
+                        <input type="checkbox" name="<?= $answer_name ?>" value="<?= $answer_value ?>" id="<?= $answer_id ?>" class="form-check-input">
                         <label for="<?= $answer_id ?>" class="form-check-label">Answer <?= $j + 1 ?></label>
                     </div>
                     <?php
@@ -24,7 +24,7 @@
     endfor;
     ?>
     <div class="d-grid mt-3">
-        <input type="hidden" name="page" value="2">
+        <input type="hidden" name="page" value="3">
         <button class="btn btn-success">Send</button>
     </div>
 </form>

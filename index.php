@@ -1,7 +1,6 @@
 <?php
 error_reporting(E_ALL);
 
-
 include_once "./views/header.php";
 // Маршрутизатор (router)
 
