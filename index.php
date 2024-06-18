@@ -7,6 +7,9 @@ include_once "./views/header.php";
 // Маршрутизатор (router)
 
 $page = $_POST["page"] ?? 0;
+include __DIR__ . '/router.php';
+
+
 
 
 switch ($page) {
